@@ -2,352 +2,503 @@
 <Option type="Map">
   <Option type="Map" name="children">
     <Option type="Map" name="native:buffer_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option type="bool" value="true" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:buffer"/>
-      <Option type="QString" name="component_description" value="Buffer"/>
-      <Option type="double" name="component_pos_x" value="430.4000000000001"/>
-      <Option type="double" name="component_pos_y" value="269.5999999999999"/>
+      <Option type="QString" value="native:buffer" name="alg_id"/>
+      <Option type="QString" value="Buffer" name="component_description"/>
+      <Option type="double" value="530.5327582747777" name="component_pos_x"/>
+      <Option type="double" value="294.96696542961024" name="component_pos_y"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="native:buffer_1"/>
+      <Option type="QString" value="native:buffer_1" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="DISSOLVE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="bool" name="static_value" value="false"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="DISTANCE">
           <Option type="Map">
-            <Option type="QString" name="parameter_name" value="bufferdistance"/>
-            <Option type="int" name="source" value="0"/>
+            <Option type="QString" value="bufferdistance" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="END_CAP_STYLE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="0"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="parameter_name" value="motorways"/>
-            <Option type="int" name="source" value="0"/>
+            <Option type="QString" value="native:clip_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="JOIN_STYLE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="0"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="MITER_LIMIT">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="double" name="static_value" value="2"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="2" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="SEGMENTS">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="5"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:clip_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option type="bool" value="true" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:clip"/>
-      <Option type="QString" name="component_description" value="Forest in Districts"/>
-      <Option type="double" name="component_pos_x" value="476.7999999999999"/>
-      <Option type="double" name="component_pos_y" value="63.999999999999986"/>
+      <Option type="QString" value="native:clip" name="alg_id"/>
+      <Option type="QString" value="Forest/District Overlay" name="component_description"/>
+      <Option type="double" value="476.79999999999995" name="component_pos_x"/>
+      <Option type="double" value="80" name="component_pos_y"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="native:clip_1"/>
+      <Option type="QString" value="native:clip_1" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="parameter_name" value="district"/>
-            <Option type="int" name="source" value="0"/>
+            <Option type="QString" value="district" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="OVERLAY">
           <Option type="Map">
-            <Option type="QString" name="parameter_name" value="forest"/>
-            <Option type="int" name="source" value="0"/>
+            <Option type="QString" value="forest" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:clip_2">
-      <Option type="bool" name="active" value="true"/>
+      <Option type="bool" value="true" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:clip"/>
-      <Option type="QString" name="component_description" value="Affected Forest"/>
-      <Option type="double" name="component_pos_x" value="761.0666666666666"/>
-      <Option type="double" name="component_pos_y" value="333.0666666666666"/>
+      <Option type="QString" value="native:clip" name="alg_id"/>
+      <Option type="QString" value="Affected Forest" name="component_description"/>
+      <Option type="double" value="842.3999999999999" name="component_pos_x"/>
+      <Option type="double" value="278.3999999999999" name="component_pos_y"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="native:clip_2"/>
+      <Option type="QString" value="native:clip_2" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:clip_1"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
+            <Option type="QString" value="native:clip_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="OVERLAY">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:buffer_1"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
+            <Option type="QString" value="native:buffer_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:clip_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:clip" name="alg_id"/>
+      <Option type="QString" value="Motorway/District Overlay" name="component_description"/>
+      <Option type="double" value="388.88062534332374" name="component_pos_x"/>
+      <Option type="double" value="182.95510478119004" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:clip_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="motorways" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" value="district" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:joinattributestable_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:joinattributestable" name="alg_id"/>
+      <Option type="QString" value="Join attributes by field value" name="component_description"/>
+      <Option type="double" value="1295.9999999999993" name="component_pos_x"/>
+      <Option type="double" value="268.8000000000001" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:joinattributestable_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="NAME_2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELDS_TO_COPY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_2">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="NAME_2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_2">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREFIX">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="qgis:fieldcalculator_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option type="bool" value="true" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="qgis:fieldcalculator"/>
-      <Option type="QString" name="component_description" value="Field calculator"/>
-      <Option type="double" name="component_pos_x" value="731.4666666666667"/>
-      <Option type="double" name="component_pos_y" value="106.13333333333333"/>
+      <Option type="QString" value="qgis:fieldcalculator" name="alg_id"/>
+      <Option type="QString" value="Area of Forest" name="component_description"/>
+      <Option type="double" value="800.8" name="component_pos_x"/>
+      <Option type="double" value="120" name="component_pos_y"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="qgis:fieldcalculator_1"/>
+      <Option type="QString" value="qgis:fieldcalculator_1" name="id"/>
       <Option type="Map" name="outputs">
-        <Option type="Map" name="forest_in_districts">
-          <Option type="QString" name="child_id" value="qgis:fieldcalculator_1"/>
-          <Option type="QString" name="component_description" value="forest_in_districts"/>
-          <Option type="double" name="component_pos_x" value="931.4666666666667"/>
-          <Option type="double" name="component_pos_y" value="151.13333333333333"/>
+        <Option type="Map" name="Forest_in_Ditrict">
+          <Option type="QString" value="qgis:fieldcalculator_1" name="child_id"/>
+          <Option type="QString" value="Forest_in_Ditrict" name="component_description"/>
+          <Option type="double" value="1000.8" name="component_pos_x"/>
+          <Option type="double" value="165" name="component_pos_y"/>
           <Option type="invalid" name="default_value"/>
-          <Option type="bool" name="mandatory" value="false"/>
-          <Option type="QString" name="name" value="forest_in_districts"/>
-          <Option type="QString" name="output_name" value="OUTPUT"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="Forest_in_Ditrict" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
         </Option>
       </Option>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="FIELD_LENGTH">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="8"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="8" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD_NAME">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="Area"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="Area_Total" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD_PRECISION">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="2"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD_TYPE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="0"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FORMULA">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="$area /1000000"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="$area /1000000" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:clip_1"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
+            <Option type="QString" value="native:clip_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="NEW_FIELD">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="bool" name="static_value" value="true"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="qgis:fieldcalculator_2">
-      <Option type="bool" name="active" value="true"/>
+      <Option type="bool" value="true" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="qgis:fieldcalculator"/>
-      <Option type="QString" name="component_description" value="field calculator"/>
-      <Option type="double" name="component_pos_x" value="916.1185829513157"/>
-      <Option type="double" name="component_pos_y" value="449.26147155055673"/>
+      <Option type="QString" value="qgis:fieldcalculator" name="alg_id"/>
+      <Option type="QString" value="Area of Affected Forest" name="component_description"/>
+      <Option type="double" value="993.5999999999999" name="component_pos_x"/>
+      <Option type="double" value="368.79999999999995" name="component_pos_y"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="qgis:fieldcalculator_2"/>
-      <Option type="Map" name="outputs">
-        <Option type="Map" name="affected_forest_in_districts">
-          <Option type="QString" name="child_id" value="qgis:fieldcalculator_2"/>
-          <Option type="QString" name="component_description" value="affected_forest_in_districts"/>
-          <Option type="double" name="component_pos_x" value="1193.6"/>
-          <Option type="double" name="component_pos_y" value="413.79999999999995"/>
-          <Option type="invalid" name="default_value"/>
-          <Option type="bool" name="mandatory" value="false"/>
-          <Option type="QString" name="name" value="affected_forest_in_districts"/>
-          <Option type="QString" name="output_name" value="OUTPUT"/>
-        </Option>
-      </Option>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="QString" value="qgis:fieldcalculator_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="FIELD_LENGTH">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="8"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="8" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD_NAME">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="Area"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="Area_Affected" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD_PRECISION">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="2"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD_TYPE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="0"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FORMULA">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="$area / 1000000"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="$area / 1000000" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:clip_2"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
+            <Option type="QString" value="native:clip_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="NEW_FIELD">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="bool" name="static_value" value="true"/>
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:fieldcalculator_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:fieldcalculator" name="alg_id"/>
+      <Option type="QString" value="Fraction of Forest" name="component_description"/>
+      <Option type="double" value="1515.999999999999" name="component_pos_x"/>
+      <Option type="double" value="468.79999999999995" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="qgis:fieldcalculator_3" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Affected_Forest_Fraction">
+          <Option type="QString" value="qgis:fieldcalculator_3" name="child_id"/>
+          <Option type="QString" value="Affected_Forest_Fraction" name="component_description"/>
+          <Option type="double" value="1715.999999999999" name="component_pos_x"/>
+          <Option type="double" value="513.8" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="Affected_Forest_Fraction" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD_LENGTH">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="8" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_NAME">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="Fraction" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FORMULA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="(Area_Affected / Area_Total) * 100" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:joinattributestable_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NEW_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
   </Option>
   <Option name="help"/>
-  <Option type="QString" name="model_group" value=""/>
-  <Option type="QString" name="model_name" value="Assignment2"/>
+  <Option type="QString" value="" name="model_group"/>
+  <Option type="QString" value="Assignment2" name="model_name"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="bufferdistance">
-      <Option type="int" name="data_type" value="1"/>
-      <Option type="QString" name="default" value="0"/>
-      <Option type="QString" name="description" value="buffer_distance"/>
-      <Option type="int" name="flags" value="0"/>
-      <Option type="double" name="max" value="2000"/>
+      <Option type="int" value="1" name="data_type"/>
+      <Option type="QString" value="0" name="default"/>
+      <Option type="QString" value="buffer_distance" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="double" value="500" name="max"/>
       <Option name="metadata"/>
-      <Option type="double" name="min" value="0"/>
-      <Option type="QString" name="name" value="bufferdistance"/>
-      <Option type="QString" name="parameter_type" value="number"/>
+      <Option type="double" value="0" name="min"/>
+      <Option type="QString" value="bufferdistance" name="name"/>
+      <Option type="QString" value="number" name="parameter_type"/>
     </Option>
     <Option type="Map" name="district">
       <Option type="List" name="data_types">
         <Option type="int" value="2"/>
       </Option>
       <Option type="invalid" name="default"/>
-      <Option type="QString" name="description" value="district"/>
-      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" value="district" name="description"/>
+      <Option type="int" value="0" name="flags"/>
       <Option name="metadata"/>
-      <Option type="QString" name="name" value="district"/>
-      <Option type="QString" name="parameter_type" value="vector"/>
+      <Option type="QString" value="district" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
     </Option>
     <Option type="Map" name="forest">
       <Option type="List" name="data_types">
         <Option type="int" value="2"/>
       </Option>
       <Option type="invalid" name="default"/>
-      <Option type="QString" name="description" value="forest"/>
-      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" value="forest" name="description"/>
+      <Option type="int" value="0" name="flags"/>
       <Option name="metadata"/>
-      <Option type="QString" name="name" value="forest"/>
-      <Option type="QString" name="parameter_type" value="vector"/>
+      <Option type="QString" value="forest" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
     </Option>
     <Option type="Map" name="motorways">
       <Option type="List" name="data_types">
         <Option type="int" value="1"/>
       </Option>
       <Option type="invalid" name="default"/>
-      <Option type="QString" name="description" value="motorways"/>
-      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" value="motorways" name="description"/>
+      <Option type="int" value="0" name="flags"/>
       <Option name="metadata"/>
-      <Option type="QString" name="name" value="motorways"/>
-      <Option type="QString" name="parameter_type" value="vector"/>
+      <Option type="QString" value="motorways" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
     </Option>
-    <Option type="Map" name="qgis:fieldcalculator_1:forest_in_districts">
-      <Option type="bool" name="create_by_default" value="true"/>
-      <Option type="int" name="data_type" value="-1"/>
+    <Option type="Map" name="qgis:fieldcalculator_1:Forest_in_Ditrict">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="int" value="-1" name="data_type"/>
       <Option type="invalid" name="default"/>
-      <Option type="QString" name="description" value="forest_in_districts"/>
-      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" value="Forest_in_Ditrict" name="description"/>
+      <Option type="int" value="0" name="flags"/>
       <Option name="metadata"/>
-      <Option type="QString" name="name" value="qgis:fieldcalculator_1:forest_in_districts"/>
-      <Option type="QString" name="parameter_type" value="sink"/>
-      <Option type="bool" name="supports_non_file_outputs" value="true"/>
+      <Option type="QString" value="qgis:fieldcalculator_1:Forest_in_Ditrict" name="name"/>
+      <Option type="QString" value="sink" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
     </Option>
-    <Option type="Map" name="qgis:fieldcalculator_2:affected_forest_in_districts">
-      <Option type="bool" name="create_by_default" value="true"/>
-      <Option type="int" name="data_type" value="-1"/>
+    <Option type="Map" name="qgis:fieldcalculator_3:Affected_Forest_Fraction">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="int" value="-1" name="data_type"/>
       <Option type="invalid" name="default"/>
-      <Option type="QString" name="description" value="affected_forest_in_districts"/>
-      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" value="Affected_Forest_Fraction" name="description"/>
+      <Option type="int" value="0" name="flags"/>
       <Option name="metadata"/>
-      <Option type="QString" name="name" value="qgis:fieldcalculator_2:affected_forest_in_districts"/>
-      <Option type="QString" name="parameter_type" value="sink"/>
-      <Option type="bool" name="supports_non_file_outputs" value="true"/>
+      <Option type="QString" value="qgis:fieldcalculator_3:Affected_Forest_Fraction" name="name"/>
+      <Option type="QString" value="sink" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
     </Option>
   </Option>
   <Option type="Map" name="parameters">
     <Option type="Map" name="bufferdistance">
-      <Option type="QString" name="component_description" value="bufferdistance"/>
-      <Option type="double" name="component_pos_x" value="119.19999999999999"/>
-      <Option type="double" name="component_pos_y" value="186.40000000000003"/>
-      <Option type="QString" name="name" value="bufferdistance"/>
+      <Option type="QString" value="bufferdistance" name="component_description"/>
+      <Option type="double" value="119.19999999999999" name="component_pos_x"/>
+      <Option type="double" value="186.40000000000003" name="component_pos_y"/>
+      <Option type="QString" value="bufferdistance" name="name"/>
     </Option>
     <Option type="Map" name="district">
-      <Option type="QString" name="component_description" value="district"/>
-      <Option type="double" name="component_pos_x" value="120"/>
-      <Option type="double" name="component_pos_y" value="60"/>
-      <Option type="QString" name="name" value="district"/>
+      <Option type="QString" value="district" name="component_description"/>
+      <Option type="double" value="120" name="component_pos_x"/>
+      <Option type="double" value="60" name="component_pos_y"/>
+      <Option type="QString" value="district" name="name"/>
     </Option>
     <Option type="Map" name="forest">
-      <Option type="QString" name="component_description" value="forest"/>
-      <Option type="double" name="component_pos_x" value="118.39999999999998"/>
-      <Option type="double" name="component_pos_y" value="107.19999999999999"/>
-      <Option type="QString" name="name" value="forest"/>
+      <Option type="QString" value="forest" name="component_description"/>
+      <Option type="double" value="118.39999999999998" name="component_pos_x"/>
+      <Option type="double" value="107.19999999999999" name="component_pos_y"/>
+      <Option type="QString" value="forest" name="name"/>
     </Option>
     <Option type="Map" name="motorways">
-      <Option type="QString" name="component_description" value="motorways"/>
-      <Option type="double" name="component_pos_x" value="118.40000000000012"/>
-      <Option type="double" name="component_pos_y" value="145.6"/>
-      <Option type="QString" name="name" value="motorways"/>
+      <Option type="QString" value="motorways" name="component_description"/>
+      <Option type="double" value="118.40000000000012" name="component_pos_x"/>
+      <Option type="double" value="145.6" name="component_pos_y"/>
+      <Option type="QString" value="motorways" name="name"/>
     </Option>
   </Option>
 </Option>
